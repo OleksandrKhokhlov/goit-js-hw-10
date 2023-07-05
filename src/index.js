@@ -36,6 +36,7 @@ function onChengeBreed() {
         'Сat with this breed is not found! Choose another breed!',
         'Okay'
       );
+      cssloaderRef.classList.add('visually-hidden');
       loaderTextRef.classList.add('visually-hidden');
       errorRef.classList.remove('visually-hidden');
       return;
